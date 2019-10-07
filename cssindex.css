@@ -1,0 +1,28 @@
+ #menu{
+    color: rgba(255, 238, 0, 0.815);
+}
+
+#particles-js {
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+#txt{
+    color:white;
+    text-align: center;
+}
+
+.homepage-txt{
+    color:whitesmoke;
+    text-align: center;
+}
+
+#overlay {
+    position: relative;
+    padding: 50px;
+}
