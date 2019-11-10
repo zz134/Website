@@ -34,3 +34,73 @@ div.result{
     background-color: white;
     padding: 10px;
 }
+
+.results {
+    position: absolute;
+    top: 28%;
+    width: 80%;
+    left: 20%;
+    margin: auto;
+    text-align: left;
+  }
+  
+  .save {
+    position: absolute;
+    width: 80%;
+    top: 17%;
+    left: 20%;
+  }
+  form.example {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  form.example scrolled {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+  }
+  
+  /* Style the search field */
+  form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  box-sizing: border-box;
+  background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+  float: left;
+  width: 10%;
+  padding: 12px;
+  background: #84CEEB;
+  color: white;
+  font-size: 15px;
+  box-sizing: border-box;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+  }
+  
+  form.example button:hover {
+  background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+  }
+  
+  .url {
+    word-break:break-all;
+    color: #5680E9; 
+    margin: 5px 0px 0px 0px;
+  }

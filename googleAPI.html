@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+    <script src="writefunction.js"></script>
+    <script src="selector.js"></script>
     <title>Google API</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -84,9 +86,19 @@
         </div>
     </nav>
 
-<h1 class="homepage-txt">Search</h1>
-
-<div class="gcse-search"></div>
+    <button type="button" onclick="writeJSON()">Export JSON</button>
+    <button type="button" onclick="writeCSV()">Export CSV</button>
+    <button type="button" onclick="writeXML()">Export XML</button>
+<div class="results"></div>
+<a style="display: none; width: fit-content;" href="" id="a" download="">Download file</a>
+<!-- <h1 class="homepage-txt"></h1><div class="results"></div><div class="gcse-search"></div></div></h1> -->
+<form id="searchbar" onscroll="fixToTop()" class="example" action="javascript:void(0);">
+<input type="text" placeholder="Search.." name="search">
+<button type="submit">
+    SEARCH
+</button>
+</form>
+<script src="search.js"></script>   
 <script>
         particlesJS.load('particles-js','particlesjs-config.json', function(){console.log('particles.json loaded...')})
 </script>
