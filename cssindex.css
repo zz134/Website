@@ -26,3 +26,11 @@
     position: relative;
     padding: 50px;
 }
+
+div.result{
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(255, 255, 255);
+    background-color: white;
+    padding: 10px;
+}
